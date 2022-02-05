@@ -5,6 +5,9 @@ conda activate mlopslab
 
 ## change the directory to recysmlops and initialise git in it.
 cd /Users/Rahul/Documents/Rahul\ Office/IIMB/Concepts/Python/recysmlops
+## To record the log of all the commands issued in terminal
+script screen.log
+
 git init
 git status
 
@@ -65,3 +68,6 @@ git status (to check the status of GitHub repository)
 git add <file name> (e.g. git add "ML_Concept/Data_Science_Advanced_Lesson03_Logistic Regression_using_Gradient_Descent.pdf”)
 git commit -m “updated comment”
 git push -u origin master
+
+## To exit the log 
+exit
